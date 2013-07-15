@@ -1,0 +1,276 @@
+/* overiding jquery mobil default css*/
+
+    /* disable shadows for better android performance */
+    .ui-body-a,
+    .ui-bar-a,
+    .ui-btn-up-a,
+    .ui-btn-hover-a,
+    .ui-btn-down-a,
+
+    .ui-body-b,
+    .ui-bar-b,
+    .ui-btn-up-b,
+    .ui-btn-hover-b,
+    .ui-btn-down-b,
+
+    .ui-body-c,
+    .ui-bar-c,
+    .ui-btn-up-c,
+    .ui-btn-hover-c,
+    .ui-btn-down-c,
+
+    .ui-body-d,
+    .ui-bar-d,
+    .ui-btn-up-d,
+    .ui-btn-hover-d,
+    .ui-btn-down-d,
+
+    .ui-body-e,
+    .ui-bar-e,
+    .ui-btn-up-e,
+    .ui-btn-hover-e,
+    .ui-btn-down-e,
+
+    .ui-shadow-inset,
+    .ui-icon-shadow,
+    .ui-focus,
+    .ui-overlay-shadow,
+    .ui-shadow,
+    .ui-btn-active,
+    * {
+        text-shadow: none !important;
+        box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+		overflow:hidden;
+    }
+
+*.ui-listview *.ui-btn-up-c,
+*.ui-listview *.ui-btn-down-c,
+*.ui-listview *.ui-btn-hover-c
+  {
+  /* Copy your .ui-btn-up styles here */
+  }
+  
+ .ui-btn-up-d{
+ background:none repeat scroll 0 0 #DDDDDD;
+ }
+.ui-page { -webkit-backface-visibility: hidden !important; }
+
+.ui-btn-up-b{
+border:1px solid #d8b500;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#ffdb02),to(#f39106));
+background-image:-webkit-linear-gradient(#ffdb02,#f39106);
+background-image:-moz-linear-gradient(#ffdb02,#f39106);
+background-image:-ms-linear-gradient(#ffdb02,#f39106);
+background-image:-o-linear-gradient(#ffdb02,#f39106);
+background-image:linear-gradient(#ffdb02,#f39106);
+}
+.ui-li-thumb{
+height:60px;
+margin:2px;
+}
+.ui-btn-up-c{
+border:none;
+padding:4px 0px !important;
+font-size:13px;
+color:#aaa;
+}
+.ui-btn-active {
+
+border:1px solid #333;
+background:#111;
+color:#fff;font-weight:700;
+text-shadow:0 -1px 0 #000;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#ffdb02),to(#f39106));
+background-image:-webkit-linear-gradient(#ffdb02,#f39106);
+background-image:-moz-linear-gradient(#ffdb02,#f39106);
+background-image:-ms-linear-gradient(#ffdb02,#f39106);
+background-image:-o-linear-gradient(#ffdb02,#f39106);
+background-image:linear-gradient(#ffdb02,#f39106)
+}
+
+.ui-bar-b {
+border:1px solid #111;
+border-left:none;
+background:#333;font-weight:700;color:#fff;
+text-shadow:0 1px 0 #111;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#444),to(#2d2d2d));
+background-image:-webkit-linear-gradient(#444,#2d2d2d);
+background-image:-moz-linear-gradient(#444,#2d2d2d);
+background-image:-ms-linear-gradient(#444,#2d2d2d);
+background-image:-o-linear-gradient(#444,#2d2d2d);
+background-image:linear-gradient(#444,#2d2d2d);
+border-bottom:2px solid #f3c406;
+}
+
+.ui-li{
+border-bottom-color:#bbb;
+border-bottom-width:1px;
+border-top-color:#eee;
+}
+
+/* end overriding jquery movie css*/ 
+
+/* new css clases*/
+body {
+        margin: 0;
+    }
+
+    #container {
+        position: absolute;
+        width: 1000%;
+        height: 100%;
+		overflow:hidden;
+    }
+
+.locator span{
+	position:absolute;
+	white-space: nowrap;
+}
+.locator{
+	height:20px;
+}
+
+.main_content{
+	text-align:center;
+}
+.main_solo{
+ width:98%;
+}
+
+.main_dual{
+width:49%;
+
+}
+.corner-btn{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+}
+#Gallery div{
+	display:inline-block;
+	margin:auto;
+	margin-top:auto;
+	padding:20px 5px 20px 5px ;
+}
+#Gallery2 div{
+	display:inline-block;
+	margin:auto;
+	margin-top:auto;
+	padding:20px 5px 20px 5px ;
+}
+#Gallery3 div{
+	display:inline-block;
+	margin:auto;
+	margin-top:auto;
+	padding:20px 5px 20px 5px ;
+}
+
+#Gallery2 div a img{
+	
+}
+.spanMargin{
+	padding-left:20px;
+}
+.nav_left a span{
+text-align:left;
+}
+.nav_right a span{
+text-align:right;
+}
+.sub_page{
+float:left;
+width:200px
+}
+
+.viewport {
+	background:url(../new_ims/beilder/back.jpg);
+	position: absolute;
+	width: 225px;
+	height: 339px;
+	top: 84px;
+	left: 27px;
+	overflow: hidden;
+}
+
+.slider {
+	
+	position: absolute;	
+	left: 0;
+	width:40000px;
+	
+}
+
+.llist li{
+width:99% !important;
+}
+.llist li div div a{
+padding:13px 0px 6px 50px !important;
+font-size:13px;
+min-height:24px !important;
+
+}
+.llist li div div a img{
+padding:12px 15px !important;
+height:auto !important;
+}
+
+.stripe{
+height:4px;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#ffdb02),to(#f39106));
+background-image:-webkit-linear-gradient(#ffdb02,#f39106);
+background-image:-moz-linear-gradient(#ffdb02,#f39106);
+background-image:-ms-linear-gradient(#ffdb02,#f39106);
+background-image:-o-linear-gradient(#ffdb02,#f39106);
+background-image: linear-gradient(rgb(255, 219, 2),#f39106);
+font-family:Helvetica,Arial,sans-serif;
+
+width:30% !important;display:inline-block;position:absolute;bottom:0px;margin:0px auto;left:0px;right:0px
+}
+
+.stripe-b{
+height:1px;
+background-color:#111;
+font-family:Helvetica,Arial,sans-serif
+}
+.stripeoff{
+height:5px;
+
+}
+
+.headerlogo{
+position:absolute;
+border-right:1px solid #1a1a1a;
+padding:0px 12px 0px 10px;
+width:40px;
+}
+.seartchico{
+position:absolute;
+right:0px;
+border-left:1px solid #1a1a1a;
+padding:0px 6px 0px 6px;
+width:40px;
+}
+.searchBarContainer{
+width:100%;
+position:absolute;
+z-index:2;
+height:41px;
+overflow:visible;
+}
+.ui-icon-cart-add{
+background-image: url("images/cart_add.png") !important;
+}
+
+.ui-li-descr{
+ margin-left:90px;
+}
+
+.list-cat{
+height:50px;
+}
+.list-cat-text{
+margin-top:.9em;
+margin-left:.9em;
+}

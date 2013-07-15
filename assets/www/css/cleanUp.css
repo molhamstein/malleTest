@@ -1,0 +1,38 @@
+
+.main_header{font-size:12px}
+.app_title{color:#ededed;margin-left:80px;margin-top:-5px;font-size:16px}
+.sup_page_titles_cont1{height:30px;background-image:url(../images/butbar.png)}
+.sup_page_titles_cont2{margin-top:11px;text-align:center;left:0px;position:absolute;width:100%}
+#titile_middle{right:0px;left:0px;position:absolute;display:inline-block;}
+.stripe_hilight{text-align:center;height:1px;background-color:#f3c406}
+.conntrol_panel{margin:0px;-webkit-box-sizing:border-box;border-right:2px solid #f3c406}
+.account_title{padding:10px 0px 10px 15px;color:#f39106;}
+.cont_panel_sep{padding:10px 0px 10px 15px;color:#f39106;border-top:1px solid #161616;width:91%}
+.list_ele_height{height:66px !important}
+.cart_icon{padding:12px;width:35px}
+.mover{
+    text-decoration:none;
+    -webkit-transform: scale(10.1);
+    transform: scale(10.1);
+    -moz-transform: scale(1.1);
+    z-index: 4;
+}
+
+.antest {
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-duration:3s;
+	-webkit-animation: animtest 2.5s ease-in-out;
+}
+
+@-webkit-keyframes amintest{
+	0% { -webkit-transform: translateX(0px); }
+	100% { -webkit-transform: translateX(200px); }
+}
+
+.lndscp_solo{
+	width:65.5%;
+}
+.lndscp_dual{
+	width:32.5%;
+}

@@ -1,0 +1,197 @@
+
+
+.arrow, .arrow2 {
+	font-size: 12px;
+	position: absolute;
+	margin: 3em 15em;
+	font-family: "Coming Soon";
+	color: #3f3f3f;
+}
+
+.arrow2 {
+	margin-left: 35em;
+}
+
+
+	.arrow img, .arrow2 img {
+		vertical-align: middle;
+	}
+		
+
+.search-wrapper2 {
+	display: block;
+	right:0px;
+	width: 100%;
+	margin: 0 auto;
+	top:-2px;
+	-webkit-perspective : 1200px;
+	position:absolute;
+	overflow:visible !important;
+	z-index:3
+}
+
+	
+.search-button1, .search-button2 {
+	display: block;
+	right:10px;
+	position: absolute;
+	margin-top:2px;
+	width: 50px;
+	height: 10px;
+	/*border: 1px solid #aa7818;
+	border-bottom: 1px solid rgba(255,255,255,0.2);*/
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#ffdb02), to(#f39106));*/
+/*
+	box-shadow: inset rgba(255, 254, 255, 0.2) 0 0.3em .3em, 
+					rgb(187, 123, 0) 0 0.32em 0 !important;*/
+	padding: 12px 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 1;
+	-webkit-transform:  translateZ(20px);
+}
+
+.search-button1 {
+	width: 100%;	
+}
+	
+	.search-button1 span, .search-button2 span {
+		display: block;
+		position:absolute;
+		top:6px;
+		left:17px;
+		margin: 0 auto;
+		background: #643904;
+		border-radius: 30px;
+		width: 30px;
+		height: 20px;
+		/*box-shadow: rgba(255,255,255,.3) 0 1px 0px !important;*/
+		text-align:center;
+	}
+	
+		.search-button1 span img, .search-button2 span img {
+			vertical-align: middle;
+			
+		}
+
+	.search-button1:active, .search-button2:active {
+		margin-top: 0.2em;
+		/*box-shadow: inset rgba(255, 254, 255, 0.2) 0 0.3em .3em, 
+						#8e620e 0 0.3em 0, 
+						rgba(0, 0, 0, 0.2) 0 0.5em 3px !important;	*/
+	}
+	
+.search-box1, .search-box2 {
+	margin-top: -.6em;
+	display: none;
+	right:0px;
+	position: absolute;
+	width: 100%;
+	height: 27px;
+	padding: 13px 6px;
+	
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fafe), to(#e2edf4));
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #aaa);
+	border: 1px solid #9bb6c9;
+	border-bottom: 1px solid #111;
+	border-radius: 5px;
+	
+	-webkit-transform:	rotate3d(1,0,0,90deg) 
+								translateZ(10px);
+}
+
+	.search-box1 input, .search-box2 input{
+		font-family: Arial;
+		font-weight: bold;
+		color: #1a3d51;
+		background: #f0f0f0;
+		border-radius:2px;
+		padding: 3px 9px 6px 9px;
+		width: 80%;
+		border: 0;
+		font-size: 12px;
+		/*text-shadow: rgba(255, 255, 255, 0.7) 1px 1px 1px;*/
+		box-shadow: inset rgba(0,0,0,.4) 0 2px 3px !important;
+		margin-left:20px;
+		margin-top:6px;
+	}
+		
+		.search-box1 input:focus, .search-box2 input:focus {
+			outline: none;
+		}
+		
+		input::-webkit-input-placeholder {
+			font-family: Arial;
+			font-weight: bold;
+			color: #1a3d51;
+			/*text-shadow: rgba(255, 255, 255, 0.7) 1px 1px 1px;*/
+		}
+	.search-box1 img, .search-box2 img {
+		opacity: .5;
+		position: absolute;
+		margin: .6em 0 0 -2em;
+		cursor: pointer;
+		-webkit-transition: 0.5s linear;
+	}
+	
+		.search-box1 img:hover, .search-box2 img:hover {
+			opacity: 1;
+		}
+
+.hide-search-button {
+	display: none;
+}
+
+.show-search-button {
+	display: block;
+}
+
+.show-search-box {
+	display: block;
+}
+
+.showed-search-box {
+	display: block;
+	-webkit-transform: rotate3d(1,0,0,0deg);
+}
+
+.hidden-search-box {
+	-webkit-transform:	rotate3d(1,0,0,90deg) 
+								translateZ(25px);
+}
+
+.switch-show {
+	height: 50px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: showBox 0.5s ease-in-out;
+}
+
+.switch-hide {
+	height: 50px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: hideBox 0.5s ease-in-out;
+}
+
+.switch-show {
+	height: 50px;
+	-webkit-transform-style: preserve-3d;	
+	-webkit-animation: showBox 0.5s ease-in-out;
+}
+
+.switch-hide {
+	height: 50px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: hideBox 0.5s ease-in-out;
+}
+.search_icon{position:absolute;top:3px}
+.close_icon{top:9px;right:2px}
+		
+@-webkit-keyframes showBox{
+	0% { -webkit-transform: rotate3d(1,0,0,0); }
+	100% { -webkit-transform: rotate3d(1,0,0,-90deg); }
+}
+		
+@-webkit-keyframes hideBox{
+	0% { -webkit-transform: rotate3d(1,0,0,-90deg); }
+	100% { -webkit-transform: rotate3d(1,0,0,0); }
+}
